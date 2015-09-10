@@ -1,0 +1,21 @@
+{
+    "name": "hungvu2803/pdoWapper",
+    "description": "A simple database abstraction for using PDO with MySQL, Postgres, and SQLite.",
+    "keywords": ["PDO", "MySQL", "Postgres", "SQLite", "database", "db", "thin", "wrapper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hungvu",
+            "homepage": "http://github.com/hungvu2803",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/PDOWrapper"
+        ]   
+    }
+}
